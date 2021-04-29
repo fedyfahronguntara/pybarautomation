@@ -12,7 +12,7 @@ import io.cucumber.testng.PickleWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-		features = {"src/test/resources/Features/Login.feature"},
+		features = {"src/test/resources/Features/Cycle.feature"},
 //		tags = {"@tag1"},
 		glue = {"StepDefs"},
 		plugin = {"pretty","html:target/site/cucumber-pretty","json:target/cucumber-reports/Login.json"}
